@@ -1,0 +1,51 @@
+*{
+    font-family: century gothic;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 1, 0.493),rgba(0, 0, 1, 0.425)),url("amir-esrafili-Jff26icLHfA-unsplash.jpg");
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center;
+    height: auto;
+    opacity: .8s;
+
+}
+#navbar{
+   
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #474040 74%);
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+ul li a:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+h2{
+    color: aqua;
+}
+p:hover{
+    color: rgb(192, 243, 110);
+
+}
+.course-sec h4{
+    margin-left: 95%;
+    color: red;
+    transition: .6s;
+}
+.course-sec h4:hover{
+    color: greenyellow;
+}
+.foot{
+    height: 120px;
+    color: white;
+    background-color: #000000;
+    background-image: linear-gradient(-147deg, #1a1616 0%, #291c11b2 74%);
+    letter-spacing: 1px;
+
+}

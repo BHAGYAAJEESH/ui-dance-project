@@ -1,0 +1,56 @@
+.gallery{
+    background-color: rgba(0, 0, 0, 0.445);
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("zeynep-sumer-JzXq6uuFPXA-unsplash.jpg");
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+#navbar{
+   
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #474040 74%);
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+ul li a:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+.foot{
+    height: 120px;
+    color: white;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #1a1616 0%, #291c11b2 74%);
+    letter-spacing: 1px;
+
+}
+.gallery-sec img{
+    object-fit: cover;
+    border-radius: 48%;
+    border: 1px solid white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.993);
+    transition: .7s;
+}
+#grop{
+    border-radius: 10%;
+}
+.gallery-sec img:hover{
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0 0 20px rgb(0, 247, 255);
+}
+.gallery-sec h4{
+    margin-left: 95%;
+    color: red;
+    transition: .6s;
+}
+.gallery-sec h4:hover{
+    color: greenyellow;
+}
